@@ -41,9 +41,9 @@ Steps:
     Read the activity labels from activity_labels.txt and replace the numbers with the text.
 
   2.4:
-    Make a column list (includig "subjects" and "label" at the start).
-    Tidy-fy the list by removing all non-alphanumeric characters and converting the result to lowercase.
-    Apply the now-good-columnnames to the data frame.
+    Make a column list (including "subjects" and "label" at the start).
+    Tidy the list by removing all non-alphanumeric characters and converting the result to lowercase.
+    Apply the good columnnames to the data frame.
   
   2.5:
     Create a new data frame by finding the mean for each combination of subject and label using the `aggregate()` function.
